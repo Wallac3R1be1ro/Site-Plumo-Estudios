@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plumo Estúdios — Inovação e Tecnologia</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="world" aria-hidden="true">
+    <div class="layer sky"></div>
+    <div class="layer stars"></div>
+    <div class="sun-moon"></div>
+    <div class="layer clouds">
+      <div class="cloud c1"></div>
+      <div class="cloud c2"></div>
+      <div class="cloud c3"></div>
+    </div>
+	
+    <div class="layer mountains-far">
+      <svg viewBox="0 0 400 100" preserveAspectRatio="none"><polygon points="0,100 40,40 90,100 130,55 180,100 230,50 280,100 330,35 400,100" fill="#16324f"/></svg>
+    </div>
+	
+    <div class="layer mountains-near">
+      <svg viewBox="0 0 400 100" preserveAspectRatio="none"><polygon points="0,100 60,60 110,100 160,70 210,100 260,58 320,100 360,65 400,100" fill="#0f2439"/></svg>
+    </div>
+	
+    <div class="ground"></div>
+    <div class="hero-sprite"><i></i></div>
+  </div>
+
+  <header class="nav">
+    <div class="logo"><span class="dot"></span> PLUMO ESTÚDIOS</div>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Produtos</a></li>
+      <li><a href="#processo">Missão</a></li>
+      <li><a href="#stack">Blog</a></li>
+    </ul>
+    <a class="nav-cta" href="#contato">Entrar em contato</a>
+  </header>
+
+  <main>
+    <section id="hero" class="stage stage-hero">
+      <span class="eyebrow">FASE 1 - INÍCIO</span>
+      <h1>PLUMO<br>ESTÚDIOS</h1>
+      <p>Construímos apps e jogos com a alma dos clássicos 2D e o motor da tecnologia atual. Cada projeto vira uma fase: objetivo claro, chefe final definido, final feliz garantido.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#contato">▶ PRESS START</a>
+        <a class="btn btn-ghost" href="#servicos">Ver serviços ▾</a>
+      </div>
+      <p class="blink mono">role para explorar o mapa ↓</p>
+    </section>
+
+    <section id="sobre" class="stage">
+      <span class="eyebrow">FASE 2 - QUEM SOMOS</span>
+      <div class="panel dialogue" data-reveal>
+        <h3>&gt; O estúdio</h3>
+        <p>Somos uma equipe pequena de desenvolvedores e game designers que trocou o excesso de reunião pelo prazer de shippar coisas boas. Trabalhamos com sprints curtos, comunicação direta e entregas que o cliente consegue ver rodando desde a primeira semana.</p>
+        <p>Não vendemos slide bonito — vendemos software que funciona, com o cuidado visual e a personalidade de um bom jogo 2D.</p>
+        <div class="badges">
+          <span class="badge">✓ código limpo</span>
+          <span class="badge">✓ prazo cumprido</span>
+          <span class="badge">✓ diversão garantida</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="stage">
+      <span class="eyebrow">FASE 3 - LOJA</span>
+      <h2>Produtos</h2>
+      <div class="grid-cards">
+        <div class="card" data-reveal>
+          <div class="avatar" style="background:var(--accent-teal)"></div>
+          <h3>O Arquiteto</h3>
+          <div class="role">Sistemas Web</div>
+          <p>Plataformas, painéis e sistemas sob medida, prontos para escalar com o seu negócio.</p>
+          <div class="stat">ROBUSTEZ ★★★★★</div>
+          <a class="card-btn" href="#contato">SELECIONAR</a>
+        </div>
+        <div class="card" data-reveal>
+          <div class="avatar" style="background:var(--accent-coral)"></div>
+          <h3>O Guerreiro</h3>
+          <div class="role">Apps Mobile</div>
+          <p>Apps nativos e híbridos, construídos para aguentar qualquer fase de crescimento.</p>
+          <div class="stat">PERFORMANCE ★★★★★</div>
+          <a class="card-btn" href="#contato">SELECIONAR</a>
+		  <a class="card-btn" href="#contato">SELECIONAR</a>
+        </div>
+        <div class="card" data-reveal>
+          <div class="avatar" style="background:var(--accent-gold)"></div>
+          <h3>O Mago</h3>
+          <div class="role">Jogos 2D/3D</div>
+          <p>Jogos para PC, celular e web — do protótipo jogável ao lançamento nas lojas.</p>
+          <div class="stat">CRIATIVIDADE ★★★★★</div>
+          <a class="card-btn" href="#contato">SELECIONAR</a>
+        </div>
+        <div class="card" data-reveal>
+          <div class="avatar" style="background:var(--accent-green)"></div>
+          <h3>O Sábio</h3>
+          <div class="role">Consultoria Tech</div>
+          <p>Arquitetura, code review e mentoria técnica para acelerar o seu time.</p>
+          <div class="stat">EXPERIÊNCIA ★★★★★</div>
+          <a class="card-btn" href="#contato">SELECIONAR</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="processo" class="stage">
+      <span class="eyebrow">FASE 4 - VALORES</span>
+      <h2>Inovação e Tecnologia</h2>
+      <div class="path">
+        <div class="path-line"></div>
+        <div class="checkpoint" data-reveal>
+          <div class="flag">1</div>
+          <h3>Descoberta</h3>
+          <p>Entendemos as regras do seu jogo: objetivos de negócio, prazos e quem é o jogador final.</p>
+        </div>
+        <div class="checkpoint" data-reveal>
+          <div class="flag">2</div>
+          <h3>Prototipagem</h3>
+          <p>Montamos um protótipo navegável ou jogável para validar a ideia antes de codar tudo.</p>
+        </div>
+        <div class="checkpoint" data-reveal>
+          <div class="flag">3</div>
+          <h3>Desenvolvimento</h3>
+          <p>A fase mais longa: código, arte e testes internos em sprints curtos e visíveis pra você.</p>
+        </div>
+        <div class="checkpoint" data-reveal>
+          <div class="flag">4</div>
+          <h3>QA &amp; Testes</h3>
+          <p>Caçamos os bugs antes que o jogador precise encontrá-los.</p>
+        </div>
+        <div class="checkpoint" data-reveal>
+          <div class="flag">5</div>
+          <h3>Lançamento</h3>
+          <p>Deploy, monitoramento e suporte pós-lançamento — o jogo continua depois dos créditos.</p>
+        </div>
+      </div>
+    </section>
+	
+	<section id="stack" class="stage">
+      <span class="eyebrow">FASE 5 - BLOG</span>
+      <h2>Postagens</h2>
+      <div class="grid-cards">
+        <div class="card" data-reveal>
+          <div class="avatar"><img src="resources/img1.png" alt="Descrição da foto"></div>
+          <h3>O Arquiteto</h3>
+          <div class="role">Sistemas Web</div>
+          <p>Plataformas, painéis e sistemas sob medida, prontos para escalar com o seu negócio.</p>
+          <!--<div class="stat">ROBUSTEZ ★★★★★</div>-->
+          <!--<a class="card-btn" href="#contato">SELECIONAR</a>-->
+        </div>
+        <div class="card" data-reveal>
+          <div class="avatar"><img src="resources/img1.png" alt="Descrição da foto"></div>
+          <h3>O Guerreiro</h3>
+          <div class="role">Apps Mobile</div>
+          <p>Apps nativos e híbridos, construídos para aguentar qualquer fase de crescimento.</p>
+          <!--<div class="stat">PERFORMANCE ★★★★★</div>-->
+          <!--<a class="card-btn" href="#contato">SELECIONAR</a>-->
+        </div>
+        <div class="card" data-reveal>
+          <div class="avatar"><img src="resources/img1.png" alt="Descrição da foto"></div>
+          <h3>O Arquiteto</h3>
+          <div class="role">Sistemas Web</div>
+          <p>Plataformas, painéis e sistemas sob medida, prontos para escalar com o seu negócio.</p>
+          <!--<div class="stat">ROBUSTEZ ★★★★★</div>-->
+          <!--<a class="card-btn" href="#contato">SELECIONAR</a>-->
+        </div>
+        <div class="card" data-reveal>
+          <div class="avatar"><img src="resources/img1.png" alt="Descrição da foto"></div>
+          <h3>O Arquiteto</h3>
+          <div class="role">Sistemas Web</div>
+          <p>Plataformas, painéis e sistemas sob medida, prontos para escalar com o seu negócio.</p>
+          <!--<div class="stat">ROBUSTEZ ★★★★★</div>-->
+          <!--<a class="card-btn" href="#contato">SELECIONAR</a>-->
+        </div>
+      </div>
+    </section>
+    <!--<section id="stack" class="stage">
+      <span class="eyebrow">FASE 5 - BLOG</span>
+      <h2>Postagens</h2>
+      <div class="inventory">
+        <div class="slot" data-reveal><div class="icon"></div><span>React</span></div>
+        <div class="slot" data-reveal><div class="icon"></div><span>React Native</span></div>
+        <div class="slot" data-reveal><div class="icon"></div><span>Node.js</span></div>
+        <div class="slot" data-reveal><div class="icon"></div><span>TypeScript</span></div>
+        <div class="slot" data-reveal><div class="icon"></div><span>Unity</span></div>
+        <div class="slot" data-reveal><div class="icon"></div><span>Godot</span></div>
+        <div class="slot" data-reveal><div class="icon"></div><span>PostgreSQL</span></div>
+        <div class="slot" data-reveal><div class="icon"></div><span>AWS</span></div>
+      </div>
+    </section>-->
+
+    <section id="contato" class="stage stage">
+      <span class="eyebrow">FASE 6 - CONTATO</span>
+      <div class="panel" data-reveal>
+        <h2>Dúvidas ou sugestões?</h2>
+        <p>Conte sua ideia e a gente monta o roteiro do projeto — sem enrolação, sem cutscene longa.</p>
+        <a class="btn btn-primary" href="mailto:contato@pixelforge.studio"><span class="coin">🪙</span> INSERT COIN — FALAR COM A EQUIPE</a>
+        <p class="mono" style="margin-top:22px;font-size:16px;">Resposta em até 1 dia útil.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo"><span class="dot"></span> PLUMO ESTÚDIOS</div>
+    <p>© 2026 Plumo Estúdios. Todos os direitos reservados.</p>
+    <p>Trazendo inovação atráves da tecnologia.</p>
+  </footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
